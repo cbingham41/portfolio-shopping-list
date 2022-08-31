@@ -1,0 +1,15 @@
+.themeSelect{
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    font-weight: bolder;
+    margin: 0px;
+    .header{
+        margin:3px 0px;
+    }
+    .themeToggle{
+        font-size: 1.25em;
+        font-weight: bold;
+        margin: 0px;
+    }
+}

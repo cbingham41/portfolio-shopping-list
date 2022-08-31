@@ -1,0 +1,46 @@
+.recipeBook{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    .recipeHeader{
+        display:flex;
+        flex-direction: column;
+        padding-left:20px;
+        padding-bottom: 20px;
+    }
+    .recipeButton{
+        width: 75%;
+        height:40px;
+        font-size: 1.5em;
+        align-self: center;
+    }
+    .recipeWrapper{
+        display:flex;
+        padding-left:20px;
+        padding-right:20px;
+        .imageWrapper{
+            width:500px;
+            height: 500px;
+            margin-top:25px;
+            margin-right:20px;
+            .recipeImage{
+                width:500px;
+            }
+        }
+        .recipeDescriptionWrapper{
+            .recipeDescription{
+                .description{
+                    margin-left:40px;
+                }
+            }
+        }
+    }
+    
+    .source{
+        margin:0px;
+    }
+    
+    .recipeDiets{
+        display:flex;
+    }
+}

@@ -1,0 +1,38 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+}
+
+// Themes
+.light-background{background-color: #FBF8F1}
+.light-primary{background-color: #ffe2b1}
+.light-secondary{ background-color: #ffe7c7;}
+.light-accent{background-color: #680C0C;}
+.light-header{color: #ffffff}
+.light-text{
+    color: #000000;
+}
+.light-button{
+    background-color: #149c6f;
+    &:hover{
+        background-color: #54bab9;
+    }
+}
+
+.dark-background{background-color: #1a263f}
+.dark-primary{background-color: #040f25}
+.dark-secondary{background-color: #081321}
+.dark-accent{background-color: #660e9d}
+.dark-header{color: #ffffff}
+.dark-text{
+    color: #ffffff;
+    a{
+        color: #d050ff;
+    }
+}
+.dark-button{
+    background-color: #098787;
+    &:hover{
+        background-color: #0ba9a9;
+    }
+}

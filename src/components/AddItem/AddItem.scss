@@ -1,0 +1,15 @@
+.formWrapper{
+    .form{
+        display:flex;
+        flex-direction: column;
+        .customInput{
+            flex-grow:1;
+            font-size: 1.5em;
+            padding: 6px;
+        }
+        .submitButton{
+            font-size: 1.25em;
+        }
+    }
+
+}
